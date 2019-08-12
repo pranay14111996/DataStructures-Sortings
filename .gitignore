@@ -12,7 +12,7 @@
 
 # eclipse ignore file
 
-*./settings
+*/.settings
 *.classpath
 
 
