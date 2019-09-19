@@ -1,5 +1,7 @@
 package com.mypractice.sorting;
 
+import com.mypractice.utils.Utils;
+
 public class SelectionSort {
 
 	public static void main(String[] args) {
@@ -28,13 +30,6 @@ public class SelectionSort {
 			arr[i] = arr[min_idx];
 			arr[min_idx] = temp;
 		}
-		printArray(arr, length);
-	}
-	private static void printArray(int arr[], int size) 
-    { 
-        int i; 
-        for (i = 0; i < size; i++) 
-            System.out.print(arr[i] + " "); 
-        System.out.println(); 
-    } 
+		Utils.printArray(arr, length);
+	} 
 }

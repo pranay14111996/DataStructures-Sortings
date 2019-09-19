@@ -1,5 +1,7 @@
 package com.mypractice.sorting;
 
+import com.mypractice.utils.Utils;
+
 public class InsertionSort {
 	public static void main(String[] args) {
 		/*Scanner s = new Scanner(System.in);
@@ -24,14 +26,7 @@ public class InsertionSort {
 			}
 			arr[j+1] = key;
 		}
-		printArray(arr,length);
+		Utils.printArray(arr,length);
 		
 	}
-	private static void printArray(int arr[], int size) 
-    { 
-        int i; 
-        for (i = 0; i < size; i++) 
-            System.out.print(arr[i] + " "); 
-        System.out.println(); 
-    } 
 }

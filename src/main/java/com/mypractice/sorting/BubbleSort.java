@@ -2,6 +2,8 @@ package com.mypractice.sorting;
 
 import java.util.Scanner;
 
+import com.mypractice.utils.Utils;
+
 public class BubbleSort {
 
 	public static void main(String[] args) {
@@ -35,14 +37,7 @@ public class BubbleSort {
 			}
 		}
 		System.out.print("\n After Sorting elements are :: ");
-		printArray(arr,l);
+		Utils.printArray(arr,l);
 		
 	}
-	private static void printArray(int arr[], int size) 
-    { 
-        int i; 
-        for (i = 0; i < size; i++) 
-            System.out.print(arr[i] + " "); 
-        System.out.println(); 
-    } 
 }
