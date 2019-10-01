@@ -1,7 +1,5 @@
 package com.mypractice.sorting;
 
-import java.util.Scanner;
-
 import com.mypractice.utils.Utils;
 
 public class BubbleSort {
